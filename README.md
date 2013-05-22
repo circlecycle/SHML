@@ -1,7 +1,7 @@
 SHML
 ====
 
-SHML (shorthand markup language)
+SHML (shorthand markup language) written in both Javascript and Python.
 
 SHML is copyright DOM Algebra, 2012-2013, authored by James Robey. Comments/praise/complaints at domalgebra@gmail.com
 
