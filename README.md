@@ -31,28 +31,28 @@ http://nametagworks.com
 
 The output of this code would be wellformed XML 
 
-<view>
-    list:[
-        {person:"James", phone:"123-456-7890", age:"22"},
-        {person:"Bob", phone:"123-456-7890", age:"25"},
-        {person:"Jill", phone:"012-9348-576", age:"24"},
-        {person:"Jacob", phone:"012-9348-576", age:"23"},
-        {person:"Jen", phone:"012-9348-576", age:"26"}
-    ],
-    
-    selectable:"lightyellow, lightBlueGradient, lightGreyGradient" //Nametag ships with these CSS verbs.
-    
-    <div class="rounded padded bottomspacer">
-        <div>Record for: <b>[=person=]</b>
-        <div class="leftspacer">phone: [=phone=]
-        <div class="leftspacer">age: [=age=]
-        
-        //our list within a list takes care of a basic indicator of how we met them.
-        <view>
-            list:["Business", "Personal", "Community"],
-            selectable:"lightgreen, forestGradient fgwhite, fgblack",
-            toggleselect:true //a new special attribute makes the list toggled.
-            <span class="leftspacer rounded leftpadded rightpadded smaller">
-                [=item=]
+      <view>
+          list:[
+              {person:"James", phone:"123-456-7890", age:"22"},
+              {person:"Bob", phone:"123-456-7890", age:"25"},
+              {person:"Jill", phone:"012-9348-576", age:"24"},
+              {person:"Jacob", phone:"012-9348-576", age:"23"},
+              {person:"Jen", phone:"012-9348-576", age:"26"}
+          ],
+          
+          selectable:"lightyellow, lightBlueGradient, lightGreyGradient" //Nametag ships with these CSS verbs.
+          
+          <div class="rounded padded bottomspacer">
+              <div>Record for: <b>[=person=]</b>
+              <div class="leftspacer">phone: [=phone=]
+              <div class="leftspacer">age: [=age=]
+              
+              //our list within a list takes care of a basic indicator of how we met them.
+              <view>
+                  list:["Business", "Personal", "Community"],
+                  selectable:"lightgreen, forestGradient fgwhite, fgblack",
+                  toggleselect:true //a new special attribute makes the list toggled.
+                  <span class="leftspacer rounded leftpadded rightpadded smaller">
+                      [=item=]
                 
                 
