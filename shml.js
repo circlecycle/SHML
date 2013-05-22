@@ -18,8 +18,25 @@
 // You process shml by making an instance of this and passing your TEXT
 // SHML to instance.process(text), receiving back your shml, or an exception
 // if something went wrong.
-   
-// SHMLClass.process is the only pubic method.
+
+// QUICK NOTE: SHMLClass.process is the only public method, taking text, and returning text.
+
+// SUMMARY:
+
+// SHML stands for "Short-Hand-Markup-Language" and is a wonderfully timesaving method of writing programs in the Nametag Workshop without all that tiring "closing of tags" that is almost the trademark of writing in HTML.
+
+//We chose a previous example, "Views within Views", to illustrate how SHML works. This is exactly equivalent to that example except you'll notice (almost) no close tags in the below.
+
+//SHML is written exactly like HTML, except: 
+
+//    0) Always use correct indentation 
+//    1) Never use close tags for a tag opened at the start of a line; tag contents may continue on the same line, or indented on the next. 
+//    2) You can have more than one tag on a line; all but the first must be closed normally. 
+//    3) Comment blocks must open at the start of a line, and close at the end of one. 
+//    4) there is no 4.
+
+//We find it takes a short period of adjustment and then you'll probably want to use it for every project thereafter. It saves a lot of typing and leads to beautiful code.
+
 var SHMLClass = function(indent_amt){
     var self = this;
     
