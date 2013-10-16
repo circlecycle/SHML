@@ -3,8 +3,6 @@ SHML
 
 SHML (shorthand markup language) written in both Javascript and Python.
 
-SHML is copyright DOM Algebra, 2012-2013, authored by James Robey. Comments/praise/complaints at domalgebra@gmail.com
-
 SHML stands for "Short-Hand-Markup-Language" and is a wonderfully timesaving
 method of writing programs in the Nametag Workshop without all that tiring 
 "closing of tags" that is almost the trademark of writing in HTML.
@@ -24,10 +22,6 @@ SHML is written exactly like HTML, except:
 We find it takes a short period of adjustment and then you'll probably 
 want to use it for every project thereafter. It saves a lot of typing and 
 leads to beautiful code.
-
-The following example is written in the Nametag Runtime, you can find out more about it at 
-
-http://nametagworks.com
 
 The output of this code would be wellformed XML 
 
